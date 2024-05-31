@@ -1,0 +1,22 @@
+.education_span {
+  font-size: 24px;
+}
+
+.working_span {
+  font-size: 24px;
+}
+
+.timelineBox_container {
+  padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 600px) {
+  .mobile-view {
+    flex-direction: column; /* 改为列方向排列 */
+  }
+
+  .mobile-view .education-container,
+  .mobile-view .experience-container {
+    width: 100%; /* 在小屏幕上宽度设置为100% */
+  }
+}

@@ -1,0 +1,28 @@
+html, body, #app {
+  /* background-color: #FAF9F6; */
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.title_line {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.nav_button:hover {
+  -webkit-box-reflect: below 0
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.3));
+}

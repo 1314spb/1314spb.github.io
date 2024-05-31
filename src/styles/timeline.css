@@ -1,0 +1,78 @@
+.info_box {
+  padding: 0px 0px 25px 20px;
+}
+
+.title1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.title2 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+.title3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px 8px;
+  font-style: italic;
+}
+
+.badge {
+  background-color: #3b3b3b;
+  transition: all 0.5s;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0px 8px;
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 8px;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 93%;
+  margin-top: 20px;
+  z-index: 400;
+}
+ul.timeline > li {
+  
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: rgb(191, 97, 212);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgb(191, 97, 212);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.bg-dark2 {
+  background-color: #3c4148 !important;
+}
+
+.description {
+  text-align: justify;
+  padding-left: 8px;
+}
