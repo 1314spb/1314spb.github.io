@@ -59,7 +59,7 @@ let info = {
       position: "Junior Research Assistant (Part time) (Student Helper)",
       date: "September 2021 - Present",
       description: "I provided technical support for healthcare research, focusing on system development, data processing and analysis, and embedded AI. Additionally, I engaged in a Smart Mobile Health System project aimed at addressing the global health issue of Alzheimer's Disease, collaborating closely with PhD students to develop innovative solutions.",
-      skills: ["Linux", "Python", "Linux", "Shell", "Jumpserver"],
+      skills: ["Linux", "Python", "Shell", "Jumpserver"],
     },
     {
       name: "MeriSKILL",
