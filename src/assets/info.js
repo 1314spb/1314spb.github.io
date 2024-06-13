@@ -7,6 +7,7 @@ import ml from "@/assets/images/ml.png";
 import development from "@/assets/images/development.png";
 import os from "@/assets/images/os.png";
 import methodologies from "@/assets/images/methodologies.png";
+import { de } from "vuetify/locale";
 
 let info = {
   name: "Sin Chung Ho",
@@ -28,7 +29,7 @@ let info = {
         "C", "Python", "HTML", "CSS", "Javascript", "C#", "PHP", 
         "Node.js", "Express.js", "Nginx", "Flask",
         "Vue.js", "React.js", 
-        "Database", "SQL",
+        "MySQL", "MariaDB", "MongoDB","SQL",
         "React Native",
         "Docker",
         "Linux",
@@ -39,6 +40,13 @@ let info = {
     }
   ],
   experiences: [
+    {
+      name: "Hospital Authority",
+      position: "Temporary Summer Intern in IT&HID (Internship)",
+      date: "Jun 2024 - Present",
+      description: "I am utilizing my skills in HTML, CSS, JavaScript, and React.js to develop an automation system for data center server approval. I was responsible for building dynamic and responsive user interfaces, ensuring a seamless user experience. I collaborated closely with the IT team to integrate the new system with existing infrastructure, significantly improving workflow efficiency. Additionally, I implemented robust form validation and error handling mechanisms to enhance the system's reliability and user satisfaction.",
+      skills: ["HTML", "CSS", "Javascript", "React.js"],
+    },
     {
       name: "Fortune Information Technology Ltd",
       position: "Software Programmer (Part time)",
@@ -87,7 +95,7 @@ let info = {
     {
       title: "Front-End Technologies",
       data: [
-        "HTML", "CSS", "Vue.js", "React.js",
+        "HTML", "CSS", "Vue.js", "React.js", "Next.js",
       ],
       icon: frontend,
       hue: 40,
@@ -95,7 +103,7 @@ let info = {
     {
       title: "Back-End Technologies",
       data: [
-        "Node.js", "Express.js", "Flask", "Nginx",
+        "Node.js", "Express.js", "Flask", "Nginx", "Next.js",
       ],
       icon: backend,
       hue: 80,
@@ -147,6 +155,26 @@ let info = {
       ],
       icon: methodologies,
       hue: 320,
+    },
+  ],
+  portfolios: [
+    {
+      title: "Temp1",
+      skills: ["Python", "HTML", "CSS", "Javascript"],
+      description: "This is a description of the project",
+      link: "",
+    },
+    {
+      title: "Temp2",
+      skills: ["Python", "HTML", "CSS", "Javascript"],
+      description: "This is a description of the project",
+      link: "",
+    },
+    {
+      title: "Temp3",
+      skills: ["Python", "HTML", "CSS", "Javascript"],
+      description: "This is a description of the project",
+      link: "",
     },
   ]
 }
