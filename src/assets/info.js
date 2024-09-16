@@ -16,7 +16,6 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/sinchungho/",
     github: "https://github.com/1314spb",
-    resume: "adad",
   },
   education: [
     {
@@ -42,10 +41,10 @@ let info = {
   experiences: [
     {
       name: "Hospital Authority",
-      position: "Temporary Summer Intern in IT&HID (Internship)",
-      date: "Jun 2024 - Present",
+      position: "Summer Intern in IT&HID (Internship)",
+      date: "Jun 2024 - Aug 2024",
       description: "I am utilizing my skills in HTML, CSS, JavaScript, and React.js to develop an automation system for data center server approval. I was responsible for building dynamic and responsive user interfaces, ensuring a seamless user experience. I collaborated closely with the IT team to integrate the new system with existing infrastructure, significantly improving workflow efficiency. Additionally, I implemented robust form validation and error handling mechanisms to enhance the system's reliability and user satisfaction.",
-      skills: ["HTML", "CSS", "Javascript", "React.js"],
+      skills: ["HTML", "CSS", "Javascript", "React.js", "Node.js", "Express.js", "ExcelJS", "LDAP"],
     },
     {
       name: "Fortune Information Technology Ltd",
@@ -87,7 +86,7 @@ let info = {
     {
       title: "Programming Languages",
       data: [
-        "C", "C++", "Python", "C#", "Java", "Go", "PHP", "Javascript",
+        "C", "C++", "Python", "C#", "Java", "PHP", "Javascript", "Typescript",
       ],
       icon: programming,
       hue: 0,
@@ -95,7 +94,7 @@ let info = {
     {
       title: "Front-End Technologies",
       data: [
-        "HTML", "CSS", "Vue.js", "React.js", "Next.js",
+        "HTML", "CSS", "Vue.js", "React.js", "Next.js", "Typescript",
       ],
       icon: frontend,
       hue: 40,
