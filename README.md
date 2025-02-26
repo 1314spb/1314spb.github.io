@@ -22,3 +22,8 @@
 
 ## Resource
 1. [Glowing Cards Effect](https://www.youtube.com/results?search_query=mouse+tracking+effect+css)
+
+npm run build
+git add dist -f
+git commit -m 'XXX'
+git subtree push --prefix dist origin gh-pages

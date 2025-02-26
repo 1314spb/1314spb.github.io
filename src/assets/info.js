@@ -11,7 +11,7 @@ import { de } from "vuetify/locale";
 
 let info = {
   name: "Sin Chung Ho",
-  description: ["I am a year 4 Information Engineering student at The Chinese University of Hong Kong with an academic background in programming, data analytics, security, and cloud development, including building scalable systems, and seeking valuable opportunities related to my interest and professional.", 
+  description: ["I am a final year Information Engineering student at The Chinese University of Hong Kong with an academic background in programming, data analytics, security, and cloud development, including building scalable systems, and seeking valuable opportunities related to my interest and professional.", 
                 "I am an innovative and collaborative individual who keeps goals and tasks organized to maintain productivity. A broad spectrum of software skills, ranging from design and development to diagnosing and resolving root causes of issues, would be invaluable in a work environment. I believe that the abilities I have acquired from my academic and professional experiences define me, and I am eager to apply and refine them in any opportunity that comes my way.",],
   links: {
     linkedin: "https://www.linkedin.com/in/sinchungho/",
@@ -40,16 +40,23 @@ let info = {
   ],
   experiences: [
     {
+      name: "China Mobile Hong Kong",
+      position: "Part Time Internship",
+      date: "January 2025 - Present",
+      description: "I am utilizing my skills in Python to automate daily core network support tasks, which has significantly enhanced efficiency and reduced manual workload. I have developed scripts to automatically check and monitor DNS configurations from diverse partners, ensuring that our network remains reliable and secure. Also, I wrote SQL queries to extract critical network metrics such as clients’ utilization, seizure times, and call complete rate from core network databases, and then employed visualization tools to generate insightful charts that highlight emerging trends.",
+      skills: ["Python", "SQL", "Visualization"],
+    },
+    {
       name: "Hospital Authority",
       position: "Summer Intern in IT&HID (Internship)",
-      date: "Jun 2024 - Aug 2024",
+      date: "June 2024 - August 2024",
       description: "I am utilizing my skills in HTML, CSS, JavaScript, and React.js to develop an automation system for data center server approval. I was responsible for building dynamic and responsive user interfaces, ensuring a seamless user experience. I collaborated closely with the IT team to integrate the new system with existing infrastructure, significantly improving workflow efficiency. Additionally, I implemented robust form validation and error handling mechanisms to enhance the system's reliability and user satisfaction.",
       skills: ["HTML", "CSS", "Javascript", "React.js", "Node.js", "Express.js", "ExcelJS", "LDAP"],
     },
     {
       name: "Fortune Information Technology Ltd",
       position: "Software Programmer (Part time)",
-      date: "Nov 2023 - May 2024",
+      date: "November 2023 - May 2024",
       description: "During my tenure in full-stack development, I collaborated on a project with two public hospitals. My role focused on ensuring system quality and security through system development tasks. Leveraging my expertise, I contributed to creating robust, secure, and user-friendly applications, ensuring seamless operations critical to healthcare services.",
       skills: ["Linux", "Node.js", "Vue.js", "MariaDB", "Python", "HTML", "CSS", "Javascript"],
     },
@@ -134,7 +141,7 @@ let info = {
     {
       title: "Development Tools",
       data: [
-        "Git", "Docker", "LangChain", "Shell", "AWS", "AWS auto scaling", "Google Cloud Platform",
+        "Git", "Docker", "LangChain", "Shell", "AWS", "Google Cloud Platform",
       ],
       icon: development,
       hue: 240,
